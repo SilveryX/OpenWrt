@@ -8,7 +8,7 @@
 ## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
 - 固件来源：[![Lean](https://img.shields.io/badge/Lede-Lean-red.svg?style=flat&logo=appveyor)](https://github.com/coolsnowwolf/lede) [![P3TERX](https://img.shields.io/badge/OpenWrt-P3TERX-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/P3TERX/Actions-OpenWrt) [![Sirpdboy](https://img.shields.io/badge/Package-Sirpdboy-orange.svg?style=flat&logo=appveyor)](https://github.com/sirpdboy/sirpdboy-package) [![Haiibo](https://img.shields.io/badge/Build-Haiibo-success.svg?style=flat&logo=appveyor)](https://github.com/haiibo/OpenWrt)
 - 项目使用 Github Actions 拉取 [Lean](https://github.com/coolsnowwolf/lede) 的 `Openwrt` 源码仓库进行云编译
-- 适配的软路由设备有：`Wyse3040`,'X86-64'
+- 适配的软路由设备有：`Wyse3040`,`X86-64`
 - Wyse3040 固件默认 IP 地址：`192.168.1.15` 默认密码：`password`
 - X86-64 固件默认 IP 地址：`192.168.1.1` 默认密码：`password`
 
