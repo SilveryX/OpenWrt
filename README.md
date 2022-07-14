@@ -31,8 +31,7 @@
 
 8. 编译完成后在仓库主页 `Releases` 对应 Tag 标签中查看以及下载固件
 
-<details>
-<summary><b>&nbsp;如果你觉得修改 .config 文件麻烦，那么你可以点击此处尝试本地提取</b></summary>
+### 如果你觉得修改 .config 文件麻烦，那么你可以点击此处尝试本地提取
 
 1. 首先安装好 Ubuntu 64bit，推荐 Ubuntu 20.04 LTS x64
 
@@ -62,8 +61,7 @@
 
 8. 复制 seed.config 文件内所有内容到对应 .config 文件中覆盖就可以了
 
-   **如果不懂编译界面可以参考 YouTube 视频：[软路由固件 OpenWrt 编译界面设置](https://www.youtube.com/watch?v=jEE_J6-4E3Y&list=WL&index=7)**
-</details>
+   
 
 
 ## 特别提示 [![](https://img.shields.io/badge/-个人免责声明-FFFFFF.svg)](#特别提示-)
