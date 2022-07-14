@@ -6,7 +6,7 @@
 # https://github.com/P3TERX
 #===============================================
 
-name: X86_64 OpenWrt
+name: Wyse3040 OpenWrt
 
 on:
   repository_dispatch:
