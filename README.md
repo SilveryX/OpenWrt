@@ -2,10 +2,6 @@
 <img width="768" src="https://cdn.jsdelivr.net/gh/haiibo/OpenWrt/image/openwrt.png"/>
 <h1>OpenWrt — 多设备固件云编译</h1>
 
-<img src="https://img.shields.io/github/downloads/haiibo/OpenWrt/total.svg?style=for-the-badge&color=green"/>
-<img src="https://img.shields.io/github/stars/haiibo/OpenWrt.svg?style=for-the-badge&color=orange"/>
-<img src="https://img.shields.io/github/forks/haiibo/OpenWrt.svg?style=for-the-badge&color=ff69b4"/>
-<img src="https://img.shields.io/github/license/haiibo/OpenWrt.svg?style=for-the-badge&color=blueviolet"/>
 
 [![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-项目说明-FFFFFF.svg)](#项目说明-) [![](https://img.shields.io/badge/-固件下载-FFFFFF.svg)](#固件下载-) [![](https://img.shields.io/badge/-近期更新-FFFFFF.svg)](#近期更新-) [![](https://img.shields.io/badge/-插件预览-FFFFFF.svg)](#插件预览-) [![](https://img.shields.io/badge/-编译教程-FFFFFF.svg)](#编译教程-) [![](https://img.shields.io/badge/-特别提示-FFFFFF.svg)](#特别提示-) [![](https://img.shields.io/badge/-捐助项目-FFFFFF.svg)](#捐助项目-) [![](https://img.shields.io/badge/-鸣谢-FFFFFF.svg)](#鸣谢-)
 </div>
@@ -14,14 +10,8 @@
 ## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
 - 固件来源：[![Lean](https://img.shields.io/badge/Lede-Lean-red.svg?style=flat&logo=appveyor)](https://github.com/coolsnowwolf/lede) [![P3TERX](https://img.shields.io/badge/OpenWrt-P3TERX-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/P3TERX/Actions-OpenWrt) [![Sirpdboy](https://img.shields.io/badge/Package-Sirpdboy-orange.svg?style=flat&logo=appveyor)](https://github.com/sirpdboy/sirpdboy-package) [![Haiibo](https://img.shields.io/badge/Build-Haiibo-success.svg?style=flat&logo=appveyor)](https://github.com/haiibo/OpenWrt)
 - 项目使用 Github Actions 拉取 [Lean](https://github.com/coolsnowwolf/lede) 的 `Openwrt` 源码仓库进行云编译
-- 设置定时自动编译（北京时间每天早上6点左右自动触发编译）
 - 固件默认 IP 地址：`192.168.1.1` 默认密码：`password`
-- 适配的软路由设备有：`X86_64`、`NanoPi_R2S`、`NanoPi_R4S`
-- 适配的 ARM 盒子设备有：`微加云`、`贝壳云`、`我家云`、`斐讯N1`、`章鱼星球`、`S905x3`（包括常见的 `HK1`、`H96`、`X96` 等盒子）、`S922x`（目前支持 `GT-King`、`GT-King Pro`、`Odroid N2` 三款盒子）
-- ARM 盒子固件分为 [Mini版](https://github.com/haiibo/OpenWrt/releases/tag/ARMv8_MINI) 和 [Plus版](https://github.com/haiibo/OpenWrt/releases/tag/ARMv8_PLUS)，Mini 精简版适合科学上网为主要需求的用户，Plus 多功能版插件多适合喜欢折腾的用户
-- 仓库编译的固件插件均为最新版本，最新版意味着可能有 BUG，如果之前使用稳定，则无需追新
-- 如固件使用有什么问题，可以直接在 [Issues](https://github.com/haiibo/OpenWrt/issues) 内留言，我会根据大家的问题进行修改
-- 喜欢的可以给个 Star，感谢各位！想要自己编译固件的请看下方编译教程！
+- 适配的软路由设备有：`Wyse3040`
 
 
 
@@ -86,16 +76,6 @@
 - **本人保证固件没加入任何后门，保护干净安全的网络环境从我做起！**
 
 
-## 捐助项目 [![](https://img.shields.io/badge/-请我喝咖啡啦-FFFFFF.svg)](#捐助项目-)
-
-**如果你觉得此项目对你有帮助，可以捐助我们，以鼓励项目能持续发展，更加完善！**
-
-**你们的支持就是作者前进的动力！**
-
-### 捐助方式
-| <img src="https://img.shields.io/badge/-支付宝-1678FF.svg" height="25" href="#赞助支持本项目-"/> | <img src="https://img.shields.io/badge/-微信-22AB39.svg" height="25" href="#赞助支持本项目-"/> |
-| :-------------: | :-------------: |
-| <img src="https://user-images.githubusercontent.com/85640068/149810593-b27af61f-71c7-4a13-9f33-4e04ff2978c1.jpg" width="150" height="150" href="#赞助支持本项目-"/> | <img src="https://user-images.githubusercontent.com/85640068/149810694-a181e062-0d71-4fd9-9279-3f9ab0128b7f.jpg" width="150" height="150" href="#赞助支持本项目-"/> |
 
 
 ## 鸣谢 [![](https://img.shields.io/badge/-跪谢各大佬-FFFFFF.svg)](#鸣谢-)
